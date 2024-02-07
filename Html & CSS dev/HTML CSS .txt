@@ -1,0 +1,734 @@
+										
+										HTML CSS DEV
+										------------
+=> Download the Google_Crome and Visual Studio code 
+	www.google crome.com
+	https://code.visualstudio.com/download
+	
+=> After installing the both crome and vs code in our laptop
+=> After we create one work-space on any directory 
+	For Example:
+	------------
+	->	Goto D: directory (This pc)
+	->	Create a folder or WorkSpace Name : HTML_CSS
+	->	After open the folder HTML_CSS 
+	->	Create onther folder the folder name is HTML
+	->	Open the HTML file in vs_code
+	->	After opening the vs_code we create one file with extention i.e,(.html)
+		For Example : index.html(with-out space in the words or u can follow camel-case_
+								 _like first latter is small after begin the next word is caps(index.html or indexPage.html))
+	->	Triger the 1st Two commands 
+			<h1>This is HTML CSS Course</h1>
+			<p>This Is My First WebPage</p> 
+			The above two commands is shows the one simple webPage or Normal webPage
+	->	After save the file ctrl + s 
+	->	After open the HTML folder in thisPc select the index.html file and click on right click 
+		and open with crome created web page will open in the screen
+=>	After we install some extentions in vs_code
+	->	Goto extenstion icon in vs_code
+	->	In the search box we can search the material theme and click on the material theme and click on the install 
+	->	And we can also sreach the material icon theme click on and the install
+	->	And we can also sreach the Auto rename tag click on and install
+	->	And we can also sreach the live server click on and install
+	->	And we can also sreach the CSS peak click on and install
+	->	And we can also sreach the prettier click on and install (this is used for perfect lines of the code)
+	
+=>	HTML having two childs 
+	->	<head></head> tag
+	->	<body></body> tag
+	
+	->	<head></head> tag
+		-----------------
+		->	in the head tag wt evere u provide data in webPage imformation that data is called meta data
+		->	and also can import the external file 
+				For Example:
+							.css
+	
+	->	<body></body> tag
+		-----------------
+		->	in the body tag wt evere u provide page-content imformation that data called as body tag
+			<!DOCTYPE html>
+			<head>
+				<title>First Web Page</title>
+			</head>
+			<body>
+				<h1>This is HTML CSS Course</h1>
+				<p>My Name Is Kalyan</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam pariatur nobis ipsum provident, a voluptates repudiandae exercitationem maxime vitae eveniet assumenda ad. Beatae soluta repudiandae deleniti illum dolorum fuga similique accusantium neque eum nam vitae, harum dolores aliquid molestiae. Culpa?</p>
+			</body>
+			
+		->	in case the <p></p> tag is more lines is there we dont scrool the horizantal bar one shortcut is there i.e, alt+z
+			
+			<!DOCTYPE html>
+			<head>
+				<title>First Web Page</title>
+			</head>
+			<body>
+				<h1>This is HTML CSS Course</h1>
+				<p>My Name Is Kalyan</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam pariatur nobis ipsum provident, a voluptates 
+				   repudiandae exercitationem maxime vitae eveniet assumenda ad. Beatae soluta repudiandae deleniti illum dolorum fuga 
+				   similique accusantium neque eum nam vitae, harum dolores aliquid molestiae. Culpa?</p>
+			</body>
+		
+		
+		
+		
+		
+												HTML Tags 
+										(Headings And Paragraph)
+										------------------------
+1)	head tag :
+--------------
+	->	head tags are totally 6
+		1. h1 -> This is biggest tag in the html
+		2. h2
+		3. h3
+		4. h4
+		5. h5
+		6. h6 -> Very smallest tag in the html
+		
+		Example:
+		--------
+		InPut:
+		------
+			<!DOCTYPE html>
+				<html lang="en">
+				<head>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Headings</title>
+				</head>
+				<body>
+					<h1>I'm heading - 1</h1>
+					<h2>I'm heading - 2</h2>
+					<h3>I'm heading - 3</h3>
+					<h4>I'm heading - 4</h4>
+					<h5>I'm heading - 5</h5>
+					<h6>I'm heading - 6</h6>
+				</body>
+			</html>
+			
+			OutPut:
+			-------
+			I'm heading - 1
+			I'm heading - 2
+			I'm heading - 3
+			I'm heading - 4
+			I'm heading - 5
+			I'm heading - 6
+			
+		-> U can see differance in the browser
+		
+2)	paragraph tag :
+-------------------
+		->	<p></p> in this p-tag is using for writing the paragraph's (u can write any paragraph's using the p-tag)
+		
+			For Example:
+			------------
+				<!DOCTYPE html>
+					<html lang="en">
+					<head>
+						<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+						<title>Headings</title>
+					</head>
+					<body>
+						<h1>I'm heading - 1</h1>
+						<h2>I'm heading - 2</h2>
+						<h3>I'm heading - 3</h3>
+						<h4>I'm heading - 4</h4>
+						<h5>I'm heading - 5</h5>
+						<h6>I'm heading - 6</h6>
+						<p>
+							This is HTML CSS Course, If u learn this Course you can able to do any type of design and you will king in thi area
+						</p>
+						<p>
+							This is HTML CSS Course, If u learn this Course you can able to do any type of design and you will king in thi area
+						</p>
+						<p>
+							Lorem40
+						</p>
+					</body>
+			
+		->	in the HTML u writing the paragraph's some white space's is there but can't seen in the webPage that called as HTML whitespace collapsing 
+		
+		=> Loream:(Dummy content)
+		-------------------------
+			loream can use the dummy content of the paragraph
+			
+			For Example:
+			------------
+			InPut:
+			------
+			
+				<!DOCTYPE html>
+					<html lang="en">
+					<head>
+						<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+						<title>Headings</title>
+					</head>
+					<body>
+						<h1>I'm heading - 1</h1>
+						<h2>I'm heading - 2</h2>
+						<h3>I'm heading - 3</h3>
+						<h4>I'm heading - 4</h4>
+						<h5>I'm heading - 5</h5>
+						<h6>I'm heading - 6</h6>
+						<p>
+							This is HTML CSS Course, If u learn this Course you can able to do any type of design and you will king in thi area
+						</p>
+						<p>
+							This is HTML CSS Course, If u learn this Course you can able to do any type of design and you will king in thi area
+						</p>
+						<p>
+							Lorem40
+						</p>
+					</body>
+	
+			OutPut:
+			-------
+				<!DOCTYPE html>
+				<html lang="en">
+				<head>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Headings</title>
+				</head>
+				<body>
+					<h1>I'm heading - 1</h1>
+					<h2>I'm heading - 2</h2>
+					<h3>I'm heading - 3</h3>
+					<h4>I'm heading - 4</h4>
+					<h5>I'm heading - 5</h5>
+					<h6>I'm heading - 6</h6>
+					<p>
+						This is HTML CSS Course, If u learn this Course you can able to do any type of design and you will king in thi area
+					</p>
+					<p>
+						This is HTML CSS Course, If u learn this Course you can able to do any type of design and you will king in thi area
+					</p>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+						Aut sed ducimus odio cupiditate tempora quibusdam ea cum, 
+						aliquid eveniet neque repudiandae iusto sunt laboriosam 
+						quisquam atque veniam nulla aperiam fugit est! 
+						Laborum hic sint saepe accusantium reiciendis impedit, quam nesciunt!
+					</p>
+				</body>
+				</html>
+
+
+										HTML Tags 
+										(Images)
+										---------
+=>	Image Tag:
+--------------
+	->	<img> this tag is used to uploading the image in the webPage 
+		this tag containg 2 attributes
+									1. src(source)
+									2. alt
+			->	// Download the images in https://unsplash.com for hd pictures
+				// Download the images in https://pixabay.com
+				// Download the images in https://gratisography.com (for funny pictures)
+			->	Download the pictures in Useing of current directory of the HTML folder
+			->	After Download, in src we update the path 
+					this path update is two types	1. absolute path
+													2. relative path
+									
+					->	path is setting with "/"
+					
+							<!DOCTYPE html>
+							<html lang="en">
+							<head>
+								<meta charset="UTF-8">
+								<meta name="viewport" content="width=device-width, initial-scale=1.0">
+								<title>Image Or Photo</title>
+							</head>
+							<body>
+								<img src="/index's/scott-umstattd-unsplash.jpg" alt="">
+							</body>
+							</html>
+							
+			->	alt tab using :
+					in case of missing an image we can show the some message in the webPage
+					
+							<!DOCTYPE html>
+							<html lang="en">
+							<head>
+								<meta charset="UTF-8">
+								<meta name="viewport" content="width=device-width, initial-scale=1.0">
+								<title>Image Or Photo</title>
+							</head>
+							<body>
+								<img src="/index's/scott-umstattd-unsplash.png" alt="Missing the Image">
+							</body>
+							</html>
+	
+	
+							
+										Comments and Linebreak
+										----------------------
+=> Comments:
+------------
+	->	Comments is used for temperory hiding of the code line 
+		"<!-- --!>" -> Sintax of the comments
+		
+		<!-- <img src="/index's/scott-umstattd-unsplash.jpg" alt="Missing the Image"> -->
+
+=> Linebreak:
+-------------
+	->	Linebreak is used for to start the new line in the webPage
+		"<br>" -> Sintax of the Linebreak
+		
+		<img src="/index's/scott-umstattd-unsplash.jpg" alt="Missing the Image"><br>
+		<img src="/index's/scott-umstattd-unsplash.jpg" alt="Missing the Image">
+	
+	
+										Links In HTML
+										-------------
+1)Links :
+---------
+// External Links:
+------------------
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Document</title>
+		</head>
+		<body>
+			<h1>Home Page</h1>
+			<a href="https://youtu.be/IphfZzH_b7s?list=PLkusOHO_VvuAVORVEVGiPsjcDj8rL7nUH" target="_blank"> //target="_blank" -> its refer to new vindow
+			If u have any dobut go and refer this link</a> 
+		</body>
+		</html>
+			
+// Internal Links:
+------------------		
+1)	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Home Page</h1>
+		<a href="https://youtu.be/IphfZzH_b7s?list=PLkusOHO_VvuAVORVEVGiPsjcDj8rL7nUH" target="_blank">
+		If u have any dobut go and refer this link</a>
+		<br />
+		<br />
+
+		<a href="./AboutPage.html">about</a> //Internal Links
+	</body>
+	</html>
+	
+2)	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>About Page</title>
+	</head>
+	<body>
+		<h1>This is  About Page</h1>
+		<a href="./Links.html">back to Links</a> // Internal Links
+	</body>
+	</html>
+	
+	
+	
+	
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1 id="top">Home Page</h1>
+		<a href="https://youtu.be/IphfZzH_b7s?list=PLkusOHO_VvuAVORVEVGiPsjcDj8rL7nUH" target="_blank">If u have any dobut go and refer this link
+		</a>
+		<br />
+		<br />
+
+		<a href="./AboutPage.html">about</a>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est repellat vel 
+		aspernatur ullam ratione eum commodi. Quis iure maxime repellat deleniti 
+		magni doloremque, hic numquam quae consequuntur dolor cumque adipisci a 
+		necessitatibus libero, ut harum tempora blanditiis nobis delectus atque? 
+		Odio, similique officiis nesciunt consequuntur molestias ducimus alias 
+		perferendis nihil aut? Culpa odio doloremque quis cumque, modi, saepe 
+		delectus sunt nulla iste rem ea, eum quas iusto non perspiciatis soluta 
+		tempore ipsam vero nobis. Maiores error animi ipsam ex voluptatum numquam, 
+		repudiandae debitis at, quo voluptatibus quis illo libero dolore molestias vel 
+		voluptatem veniam enim consectetur maxime! Quibusdam, quis nulla.
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<a href="#top">Back to top</a>
+		<br>
+		<br>
+		<br>
+		<!-- <a href="https://www.youtube.com/watch?v=IphfZzH_b7s&list=PLkusOHO_VvuAVORVEVGiPsjcDj8rL7nUH" target="_blank"> -->
+			<!-- <img src="./Images/scott-umstattd-unsplash.jpg"  width="100" alt="Missing the image"/> -->
+		<!-- </a> -->
+		<a href="https://www.youtube.com/watch?v=IphfZzH_b7s&list=PLkusOHO_VvuAVORVEVGiPsjcDj8rL7nUH">
+			<img src="./Images/scott-umstattd-unsplash.jpg"  width="100" alt="Missing the image"/>
+		</a>
+		<br>
+		<a href="#">Empty link</a>
+		<br>
+		<br>
+		<br>
+	</body>
+	</html>
+	
+	
+	
+	
+	
+										Sup, Sub, Strong And em, Special Chars
+										---------------------------------------
+Sup -> Means Separate (Content showing in word upper)
+Sub -> Means content showing down the line word
+Strong -> means content showing the bold letters 
+em -> Means Empass 
+Special Characters -> 
+					For Example:
+					------------
+					&copyright
+InPut:
+-------
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sup, Sub And Strong</title>
+	</head>
+	<body>
+		<h1>Hii im the<sup>1st</sup> Kalyan <sub>in my town</sub></h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+			<strong>Dolore earum eveniet rem ipsa, cupiditate, consequatur illum voluptatum perspiciatis id 
+			</strong>in minima, deleniti quo nesciunt ab dicta.
+			<em>Fuga veritatis a magni architecto possimus debitis quam odit,</em>  
+			dolor error eaque atque facere perspiciatis corrupti laborum tenetur id dolores sequi dolorem ipsa magnam.</p>
+			<h2>&dagger;<br>&ac;<br>&longmapsto;</h2>
+	</body>
+	</html>
+
+OutPut:
+-------
+See the diff in the brwoser
+Hii im the1st Kalyan in my town
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore earum eveniet rem ipsa, cupiditate, 
+consequatur illum voluptatum perspiciatis id in minima, deleniti quo nesciunt ab dicta. 
+Fuga veritatis a magni architecto possimus debitis quam odit, dolor error eaque atque facere perspiciatis 
+corrupti laborum tenetur id dolores sequi dolorem ipsa magnam.
+
+†
+∾
+⟼
+	
+	
+														Lists
+										Un - Orderd List, Orderd List, Nested List
+										------------------------------------------
+1) Un - Orderd List:
+--------------------
+	->	<ul></ul> -> Syntax of the Un-Orderd it is also known as ul-tag
+		<li> -> Syntaxof the List (list tag)
+		
+	-> Un-Orderd List Not in the Numaric numbers 
+	-> Un-Orderd used in the anchor tags (some of our recuriment)
+			
+			<!-- Un-Orderd list -->
+			<h1>Un-Orderd list</h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="./AboutPage.html">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+	
+2) Orderd List:
+---------------
+	->	<ol></ol> -> Syntax of the Orderd it is also known as ol-tag
+		<li> -> Syntaxof the List (list tag)
+		
+	-> Orderd List in the Numaric numbers 
+	-> Orderd used in the anchor tags (some of our recuriment)
+	
+			<!-- Orderd list -->
+			<h1>Orderd list</h1>
+			<ol>
+				<li>Kalyan</li>
+				<li>Kittu</li>
+				<li>Pavan</li>
+			</ol>
+	
+3) Nested List:
+---------------
+	-> Nested List having both Un-Orderd And Orderd is known as Nested List
+		
+			<!-- Nested list -->
+			<h1>Nested list</h1>
+			<ul>
+				<li>Kalyan</li>
+				<li>Kittu</li>
+				<ol>
+					<li>HTML</li>
+					<li>CSS</li>
+				</ol>
+				<li>Pavan</li>
+			</ul>
+	
+	
+														Tables
+														------
+	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<style> // CSS
+    td, th {
+        border: 2px solid red;
+        padding: 4px;
+    }
+</style>
+<body>
+    <table style="border: 2px solid blue;">
+        <th>Person Name</th>
+        <th>Age</th> // Table head <th>
+        <tr>
+            <td>Kalyan</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Kittu</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Pavan</td>
+            <td>25</td>
+        </tr>
+    </table>
+</body>
+</html>
+	
+	
+	
+														Forms
+														-----
+// Forms:
+---------
+		->	Forms <Forms> is known as Log-in Or Sign-in forms
+		->	Forms <Forms> containg two attributes i.e, action and method
+		->	Forms containg <input> tag, type="text" name="name" id="" (input tag containg multipule attributes)
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
